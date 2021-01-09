@@ -1,15 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jewerely store</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+            integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+            crossorigin="anonymous" />
+            <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <!-- Шапка сайта -->
     <header>
-        <nav>
-        <ul>
+        <nav class="site-nav">
+        <ul class="list">
             <li>
                 <a href="./index.html">Контрагентам</a>
             </li>
@@ -22,7 +29,7 @@
         </ul>
         <a href="./index.html">Лого</a>
 
-        <ul>
+        <ul class="list">
             <li>
                 <a href="./index.html">Поиск</a>
             </li>
@@ -40,7 +47,7 @@
         <section>
             <h2>К мероприятиям</h2>
             <h3>Настоящая красота здесь!</h3>
-            <ul>
+            <ul class="list">
                 <li><button type="button">Свадьба</button></li>
                 <li><button type="button">Мужу</button></li>
                 <li><button type="button">Жене</button></li>
@@ -48,14 +55,24 @@
                 <li><button type="button">Коллекции</button></li>
                 <li><button type="button">Редкость</button></li>
             </ul>
-            <ul>
+            <ul class="list">
                 <li>
                     <a href="./">Кольца</a>
-                    <a href="./">Серьги</a>
-                    <a href="./">Подвески</a>
-                    <a href="./">Запонки</a>
-                    <a href="./">Браслеты</a>
-                    <a href="./">Часы</a>
+                    </li>
+                    <li>
+                        <a href="./">Серьги</a>
+                    </li>
+                    <li>
+                        <a href="./">Подвески</a>
+                    </li>
+                    <li>
+                        <a href="./">Запонки</a>
+                    </li>
+                    <li>
+                        <a href="./">Браслеты</a>
+                    </li>
+                    <li>
+                        <a href="./">Часы</a>
                 </li>
             </ul>
         </section>
@@ -72,7 +89,7 @@
         <section>
             <h2>Полезные статьи</h2>
             <h3>Лучшие советы по подбору дорогих подарков</h3>
-            <ul>
+            <ul class="list">
                 <li>
                     <p>Как выбрать часы для своей будущей жены</p>
                 </li>
@@ -93,7 +110,7 @@
         <section>
             <h2>Полезные советы и персональный предложения</h2>
             <h3>Эксклюзивная рассылка</h3>
-            <ul>
+            <ul class="list">
                 <li>
                     <a href="./index.html">Личный менеджер</a>
                 </li>
@@ -108,7 +125,7 @@
     <!-- Футер -->
     <footer>
         <h3>Полезные ссылки</h3>
-        <ul>
+        <ul class="list">
             <li>
                 <a href="./">Доставка</a>
             </li>
@@ -121,12 +138,12 @@
             <li>
                 <a href="./">Политика конфиденциальности</a>
             </li>
-        </ul>
+        </ul class="list">
         <h3>Оплата</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ullamcorper justo, nec, pellentesque.</p>
 
         <h3>Контакты</h3>
-        <ul>
+        <ul class="list">
             <li>
                 <a href="tel:+3888122345655">8 (812) 234-56-55</a>
             </li>
@@ -135,6 +152,22 @@
             </li>
             <li>
                 <a href="mailto:ojjo@ojjo.ru">ojjo@ojjo.ru</a>
+            </li>
+        </ul>
+        <h3>социальные сети</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ullamcorper justo, nec, pellentesque.</p>
+        <ul class="list">
+            <li>
+                <a href="./">(c) 2020 OJJO jewelry</a>
+            </li>
+            <li>
+                <a href="./">Договор публичной офферты</a>
+            </li>
+            <li>
+                <a href="./">Контрагентам</a>
+            </li>
+            <li>
+                <a href="./">Сделано Figma.info</a>
             </li>
         </ul>
     </footer>

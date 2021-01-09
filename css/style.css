@@ -1,0 +1,35 @@
+/* основной цвет текста #FFFFFF; */
+/* второй цвет текста #333333; */
+/* цвет зажнего фона #333333; */
+:root {
+  --main-text-color: #ffffff;
+  --second-text-color: #333333;
+  --background-color: #333333;
+}
+body {
+  font-family: roboto, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.list {
+  list-style-type: none;
+}
+
+/* Шапка сайта */
+
+.site-nav {
+  background-color: #000000;
+}
